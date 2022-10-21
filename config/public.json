@@ -1,0 +1,22 @@
+{
+    "log": {
+        "levelsTotal": [
+            "panic",
+            "fatal",
+            "error",
+            "warning",
+            "info",
+            "debug",
+            "trace"
+        ],
+        "level": "trace",
+        "typesTotal": [
+            "console",
+            "file"
+        ],
+        "types": [
+            "console",
+            "file"
+        ]
+    }
+}
