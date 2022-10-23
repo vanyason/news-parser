@@ -5,5 +5,9 @@ import (
 )
 
 func CreateScratchers(conf config.Config) (scratchers []Scratcher, err error) {
+	scratchers = []Scratcher{
+		&RustorkaScratcher{},
+	}
+
 	return scratchers, nil
 }

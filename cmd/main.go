@@ -24,8 +24,8 @@ func app() (err error) {
 	for _, s := range scratchers {
 		_, _ = s.Scratch()
 	}
-	return nil
 
+	return nil
 }
 
 func main() {
